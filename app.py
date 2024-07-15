@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-import joblib
+import joblib as jb
 
 # Ajouter des styles CSS personnalisés
 st.markdown(
@@ -33,7 +33,7 @@ train_moy = 3.4452083333333334
 train_std = 1.9627834079686994
 
 # Chargement du modèle
-model = joblib.load(filename="bestmodelepredict.joblib")
+model = jb.load(filename="bestmodelepredict.joblib")
 
 # Définition d'une fonction d'inférence
 def inference(petal_long, petal_larg, sepal_long, sepal_larg):
