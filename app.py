@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np
-import scikit-learn
 import joblib as jb
 
 # Ajouter des styles CSS personnalisés
