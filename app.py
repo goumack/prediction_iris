@@ -33,7 +33,7 @@ train_moy = 3.4452083333333334
 train_std = 1.9627834079686994
 
 # Chargement du modèle
-model = jb.load(filename="modelfinal.joblib")
+model = jb.load(filename="modelfinalstreamlit.joblib")
 
 # Définition d'une fonction d'inférence
 def inference(petal_long, petal_larg, sepal_long, sepal_larg):
